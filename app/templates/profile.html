@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block main%}
+
+<div id="profile">
+    <div class="profile2">
+
+        <div class="content">
+            <img id="propic" src="{{url_for('static',filename='img/kevohal.jpg')}}" width="80px" height="80px"/>
+            <p>
+                <p>Kevar Halstead</p>
+                <p><a href="#">@kevohal</a></p>
+                <p>Kingston, Jamaica</p>
+                <p>Joined {{date_joined}}</p>
+            </p>
+
+        </div>
+
+        <div>
+            <p class="bio">
+                I'm a chill guy, a very chill guy. The city is great but the country is greater.
+            </p>
+        </div>
+
+        <div class="social">
+
+            <div class="follows">
+                <div class="count"><h4>10</h4></div>
+                <div class="title"><p>Posts</p></div>
+            </div>
+
+            <div class="follows">
+                <div class="count"><h4>1500</h4></div>
+                <div class="title"><p>Following</p></div>
+            </div>
+
+            <div class="follows">
+                <div class="count"><h4>2500</h4></div>
+                <div class="title"><p>Followers</p></div>
+            </div>
+            <div>
+                <button id='f_btn'>Follow</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
