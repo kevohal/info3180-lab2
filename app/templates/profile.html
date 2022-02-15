@@ -6,9 +6,9 @@
     <div class="profile2">
 
         <div class="content">
-            <img id="propic" src="{{url_for('static',filename='img/kevohal.jpg')}}" width="80px" height="80px"/>
-            <p>
-                <p>Kevar Halstead</p>
+            <img id="propic" class="image" src="{{url_for('static',filename='img/kevohal.jpg')}}" width="80px" height="80px"/>
+            <p id="para">
+                <p><h3>Kevar Halstead</h3></p>
                 <p><a href="#">@kevohal</a></p>
                 <p>Kingston, Jamaica</p>
                 <p>Joined {{date_joined}}</p>
@@ -16,7 +16,7 @@
 
         </div>
 
-        <div>
+        <div id="bio_txt">
             <p class="bio">
                 I'm a chill guy, a very chill guy. The city is great but the country is greater.
             </p>
@@ -38,10 +38,10 @@
                 <div class="count"><h4>2500</h4></div>
                 <div class="title"><p>Followers</p></div>
             </div>
-            <div>
-                <button id='f_btn'>Follow</button>
-            </div>
-
+        </div>
+        
+        <div class="fbutton">
+            <button id='f_btn'>Follow</button>
         </div>
 
     </div>

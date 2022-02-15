@@ -8,7 +8,7 @@ body {
     align-items: center;
 }
 
-.propic {
+#propic {
     display: flex;
 }
 
@@ -16,13 +16,19 @@ body {
     width: 475px;
     display: flex;
     background-color: white;
-    flex-flow: row-wrap;
+    flex-flow: row wrap;
         vertical-align: middle;
         flex-direction: column;
         border-style: solid;
         border-radius: 5%;
     padding-bottom: 15px;
     border-width: 1px;
+}
+
+#para {
+    margin: 0;
+    padding: 0%;
+
 }
 
 .content {
@@ -43,9 +49,10 @@ body {
 
 .bio {
     padding: 10px;
+    justify-content: center;
 }
 
-.center {
+.fbutton {
     display: flex;
     justify-content: center;
 }
@@ -67,4 +74,13 @@ body {
 .social .follows {
     margin-right: 30px;
     text-align: center;
+}
+
+#bio_txt {
+    justify-content: center;
+    align-items: center;
+}
+
+p.bio {
+    align-items: center;
 }
