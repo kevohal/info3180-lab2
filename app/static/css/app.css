@@ -8,6 +8,10 @@ body {
     align-items: center;
 }
 
+#profile {
+    display: flex;
+    justify-content: center;
+}
 #propic {
     display: flex;
 }
@@ -23,6 +27,7 @@ body {
         border-radius: 5%;
     padding-bottom: 15px;
     border-width: 1px;
+    justify-content: center;
 }
 
 #para {
@@ -76,11 +81,9 @@ body {
     text-align: center;
 }
 
-#bio_txt {
+.bio {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-p.bio {
-    align-items: center;
-}
