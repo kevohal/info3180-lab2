@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 #propic {
     display: flex;
 }
@@ -20,6 +21,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
 .profile2 {
     width: 475px;
     display: flex;
