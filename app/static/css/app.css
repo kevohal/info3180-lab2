@@ -16,6 +16,10 @@ body {
     display: flex;
 }
 
+.info, h3 { 
+    margin: 0px;
+    padding: 0px;
+}
 .profile2 {
     width: 475px;
     display: flex;
@@ -85,5 +89,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
